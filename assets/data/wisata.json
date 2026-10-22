@@ -1,0 +1,355 @@
+{
+  "kategori": [
+    {
+      "id": 1,
+      "nama": "Alam",
+      "ikon": "forest"
+    },
+    {
+      "id": 2,
+      "nama": "Pantai",
+      "ikon": "beach_access"
+    },
+    {
+      "id": 3,
+      "nama": "Kuliner",
+      "ikon": "restaurant"
+    },
+    {
+      "id": 4,
+      "nama": "Sejarah & Budaya",
+      "ikon": "account_balance"
+    },
+    {
+      "id": 5,
+      "nama": "Taman Rekreasi",
+      "ikon": "attractions"
+    }
+  ],
+  "destinasi": [
+    {
+      "id": 1,
+      "nama": "Coban Rondo",
+      "kategoriId": 1,
+      "lokasi": "Pujon, Kab. Malang",
+      "alamat": "Jl. Coban Rondo No.30, Pandesari, Kec. Pujon, Kab. Malang",
+      "latitude": -7.8846458,
+      "longitude": 112.4768237,
+      "hargaTiket": 35000,
+      "jamBuka": "24 jam (Rabu tutup)",
+      "rating": 4.5,
+      "jumlahUlasan": 12620,
+      "populer": true,
+      "gambar": "assets/images/coban_rondo.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Musala",
+        "Toilet",
+        "Warung makan",
+        "Labirin"
+      ],
+      "deskripsi": "Air terjun di lereng Gunung Kawi dengan ketinggian sekitar 84 meter. Udaranya sejuk dan dikelilingi hutan pinus. Selain air terjun, pengunjung bisa mencoba labirin, outbound, dan berkuda di area sekitarnya."
+    },
+    {
+      "id": 2,
+      "nama": "Coban Pelangi",
+      "kategoriId": 1,
+      "lokasi": "Poncokusumo, Kab. Malang",
+      "alamat": "Jl. Raya Gubugklakah, Ngadas, Kec. Poncokusumo, Kab. Malang",
+      "latitude": -8.011408,
+      "longitude": 112.8603973,
+      "hargaTiket": 15000,
+      "jamBuka": "08.00 - 16.00",
+      "rating": 4.6,
+      "jumlahUlasan": 1990,
+      "populer": false,
+      "gambar": "assets/images/coban_pelangi.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Toilet",
+        "Warung makan"
+      ],
+      "deskripsi": "Air terjun yang terkenal karena pelangi yang sering muncul dari percikan airnya saat siang hari. Untuk mencapainya pengunjung perlu berjalan kaki menyusuri jalur hutan, jadi gunakan alas kaki yang nyaman."
+    },
+    {
+      "id": 3,
+      "nama": "Kebun Teh Wonosari",
+      "kategoriId": 1,
+      "lokasi": "Singosari, Kab. Malang",
+      "alamat": "Jl. Desa Toyomarto, Bodean Putuk, Toyomarto, Kec. Singosari, Kab. Malang",
+      "latitude": -7.8204902,
+      "longitude": 112.6431502,
+      "hargaTiket": 20000,
+      "jamBuka": "06.00 - 17.00",
+      "rating": 4.5,
+      "jumlahUlasan": 8407,
+      "populer": false,
+      "gambar": "assets/images/kebun_teh_wonosari.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Penginapan",
+        "Kafe",
+        "Kolam renang",
+        "Toilet"
+      ],
+      "deskripsi": "Hamparan kebun teh hijau di lereng Gunung Arjuno. Pengunjung dapat berjalan-jalan di antara tanaman teh, mengikuti wisata petik teh, dan menikmati teh hangat langsung dari perkebunan."
+    },
+    {
+      "id": 4,
+      "nama": "Pantai Balekambang",
+      "kategoriId": 2,
+      "lokasi": "Bantur, Kab. Malang",
+      "alamat": "Pantai Balekambang, Srigonco, Kec. Bantur, Kab. Malang",
+      "latitude": -8.4034458,
+      "longitude": 112.5391259,
+      "hargaTiket": 15000,
+      "jamBuka": "24 jam",
+      "rating": 4.4,
+      "jumlahUlasan": 12657,
+      "populer": true,
+      "gambar": "assets/images/pantai_balekambang.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Musala",
+        "Toilet",
+        "Warung makan",
+        "Penginapan"
+      ],
+      "deskripsi": "Pantai di selatan Malang yang terkenal dengan Pura Amarta Jati di atas pulau karang kecil, terhubung oleh jembatan dari bibir pantai. Suasananya sering disebut mirip Tanah Lot di Bali."
+    },
+    {
+      "id": 5,
+      "nama": "Pantai Tiga Warna",
+      "kategoriId": 2,
+      "lokasi": "Sumbermanjing Wetan, Kab. Malang",
+      "alamat": "Jl. Sendang Biru, Tambakrejo, Kec. Sumbermanjing Wetan, Kab. Malang",
+      "latitude": -8.4391428,
+      "longitude": 112.6777942,
+      "hargaTiket": 10000,
+      "jamBuka": "07.00 - 15.00 (wajib reservasi)",
+      "rating": 4.5,
+      "jumlahUlasan": 2689,
+      "populer": true,
+      "gambar": "assets/images/pantai_tiga_warna.jpg",
+      "fasilitas": [
+        "Pemandu",
+        "Sewa alat snorkeling",
+        "Toilet"
+      ],
+      "deskripsi": "Kawasan konservasi dengan air laut yang tampak berwarna hijau, biru muda, dan biru tua. Kunjungan dibatasi dan perlu reservasi terlebih dahulu. Pengunjung wajib didampingi pemandu dan menjaga kebersihan."
+    },
+    {
+      "id": 6,
+      "nama": "Pantai Goa Cina",
+      "kategoriId": 2,
+      "lokasi": "Sumbermanjing Wetan, Kab. Malang",
+      "alamat": "Pantai Goa Cina, Sitiarjo, Kec. Sumbermanjing Wetan, Kab. Malang",
+      "latitude": -8.4471192,
+      "longitude": 112.6514551,
+      "hargaTiket": 10000,
+      "jamBuka": "24 jam",
+      "rating": 4.4,
+      "jumlahUlasan": 4976,
+      "populer": false,
+      "gambar": "assets/images/pantai_goa_cina.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Area kemah",
+        "Toilet",
+        "Warung makan"
+      ],
+      "deskripsi": "Pantai berpasir putih dengan pulau karang di tengah laut dan sebuah goa kecil di tebingnya. Cocok untuk berkemah sambil menikmati matahari terbit."
+    },
+    {
+      "id": 7,
+      "nama": "Bakso President",
+      "kategoriId": 3,
+      "lokasi": "Klojen, Kota Malang",
+      "alamat": "Jl. Batanghari No.3, Rampal Celaket, Kec. Klojen, Kota Malang",
+      "latitude": -7.9623433,
+      "longitude": 112.6369031,
+      "hargaTiket": 0,
+      "jamBuka": "08.00 - 21.30",
+      "rating": 4.1,
+      "jumlahUlasan": 22637,
+      "populer": true,
+      "gambar": "assets/images/bakso_president.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Toilet",
+        "Area makan"
+      ],
+      "deskripsi": "Warung bakso legendaris yang letaknya tepat di samping rel kereta api, sehingga pengunjung bisa makan sambil melihat kereta lewat. Menu andalannya bakso urat, bakso goreng, dan paru goreng."
+    },
+    {
+      "id": 8,
+      "nama": "Pos Ketan Legenda",
+      "kategoriId": 3,
+      "lokasi": "Kota Batu",
+      "alamat": "Jl. Kartini No.6, Sisir, Kec. Batu, Kota Batu",
+      "latitude": -7.8709526,
+      "longitude": 112.5259953,
+      "hargaTiket": 0,
+      "jamBuka": "10.00 - 15.00 & 16.30 - 24.00",
+      "rating": 4.5,
+      "jumlahUlasan": 5013,
+      "populer": false,
+      "gambar": "assets/images/pos_ketan_legenda.jpg",
+      "fasilitas": [
+        "Area makan"
+      ],
+      "deskripsi": "Kedai ketan yang sudah berdiri sejak 1967 di dekat Alun-Alun Batu. Ketan hangat disajikan dengan berbagai topping seperti bubuk kedelai, susu, keju, dan durian. Pas dinikmati saat udara Batu sedang dingin."
+    },
+    {
+      "id": 9,
+      "nama": "Toko Oen",
+      "kategoriId": 3,
+      "lokasi": "Klojen, Kota Malang",
+      "alamat": "Jl. Jend. Basuki Rahmat No.5, Kauman, Kec. Klojen, Kota Malang",
+      "latitude": -7.980704,
+      "longitude": 112.630332,
+      "hargaTiket": 0,
+      "jamBuka": "08.00 - 21.00",
+      "rating": 3.8,
+      "jumlahUlasan": 7942,
+      "populer": false,
+      "gambar": "assets/images/toko_oen.jpg",
+      "fasilitas": [
+        "Area makan",
+        "Toilet"
+      ],
+      "deskripsi": "Restoran dan toko es krim bergaya kolonial yang berdiri sejak 1930. Interiornya masih mempertahankan suasana tempo dulu. Es krim dan kue-kue klasiknya menjadi menu favorit pengunjung."
+    },
+    {
+      "id": 10,
+      "nama": "Candi Singosari",
+      "kategoriId": 4,
+      "lokasi": "Singosari, Kab. Malang",
+      "alamat": "Jl. Kertanegara, Candirenggo, Kec. Singosari, Kab. Malang",
+      "latitude": -7.8877616,
+      "longitude": 112.6638979,
+      "hargaTiket": 0,
+      "jamBuka": "07.30 - 16.00",
+      "rating": 4.6,
+      "jumlahUlasan": 3883,
+      "populer": false,
+      "gambar": "assets/images/candi_singosari.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Toilet",
+        "Pusat informasi"
+      ],
+      "deskripsi": "Peninggalan Kerajaan Singhasari dari abad ke-13 yang diyakini sebagai tempat pendharmaan Raja Kertanegara. Tidak jauh dari candi terdapat dua arca Dwarapala berukuran besar."
+    },
+    {
+      "id": 11,
+      "nama": "Museum Brawijaya",
+      "kategoriId": 4,
+      "lokasi": "Klojen, Kota Malang",
+      "alamat": "Jl. Besar Ijen No.25A, Gading Kasri, Kec. Klojen, Kota Malang",
+      "latitude": -7.9721325,
+      "longitude": 112.621209,
+      "hargaTiket": 10000,
+      "jamBuka": "08.00 - 15.00 (Sabtu-Minggu s.d. 13.00)",
+      "rating": 4.5,
+      "jumlahUlasan": 7252,
+      "populer": false,
+      "gambar": "assets/images/museum_brawijaya.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Toilet",
+        "Pemandu"
+      ],
+      "deskripsi": "Museum sejarah militer di kawasan Jalan Ijen yang menyimpan koleksi senjata, kendaraan perang, dan dokumen perjuangan kemerdekaan Indonesia, termasuk Gerbong Maut yang terkenal."
+    },
+    {
+      "id": 12,
+      "nama": "Kampung Warna-Warni Jodipan",
+      "kategoriId": 4,
+      "lokasi": "Blimbing, Kota Malang",
+      "alamat": "Jl. Ir. H. Juanda, Jodipan, Kec. Blimbing, Kota Malang",
+      "latitude": -7.9828797,
+      "longitude": 112.6372548,
+      "hargaTiket": 5000,
+      "jamBuka": "07.00 - 17.00",
+      "rating": 4.5,
+      "jumlahUlasan": 2081,
+      "populer": true,
+      "gambar": "assets/images/kampung_jodipan.jpg",
+      "fasilitas": [
+        "Jembatan kaca",
+        "Spot foto",
+        "Warung"
+      ],
+      "deskripsi": "Permukiman di tepi Sungai Brantas yang dicat warna-warni oleh mahasiswa dan warga. Kampung ini menjadi contoh perubahan kawasan padat penduduk menjadi destinasi wisata yang menarik."
+    },
+    {
+      "id": 13,
+      "nama": "Jatim Park 2",
+      "kategoriId": 5,
+      "lokasi": "Kota Batu",
+      "alamat": "Jl. Raya Oro-Oro Ombo No.9, Temas, Kec. Batu, Kota Batu",
+      "latitude": -7.888021,
+      "longitude": 112.5295442,
+      "hargaTiket": 120000,
+      "jamBuka": "08.30 - 16.30",
+      "rating": 4.7,
+      "jumlahUlasan": 53302,
+      "populer": true,
+      "gambar": "assets/images/jatim_park_2.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Musala",
+        "Toilet",
+        "Restoran",
+        "Sewa stroller"
+      ],
+      "deskripsi": "Taman rekreasi edukatif yang terdiri atas Batu Secret Zoo dan Museum Satwa. Pengunjung dapat melihat ratusan jenis satwa dari berbagai negara sambil belajar tentang keanekaragaman hayati."
+    },
+    {
+      "id": 14,
+      "nama": "Museum Angkut",
+      "kategoriId": 5,
+      "lokasi": "Kota Batu",
+      "alamat": "Jl. Sultan Agung No.2, Ngaglik, Kec. Batu, Kota Batu",
+      "latitude": -7.8790652,
+      "longitude": 112.5187151,
+      "hargaTiket": 120000,
+      "jamBuka": "12.00 - 20.00",
+      "rating": 4.7,
+      "jumlahUlasan": 58524,
+      "populer": true,
+      "gambar": "assets/images/museum_angkut.jpg",
+      "fasilitas": [
+        "Parkir",
+        "Musala",
+        "Toilet",
+        "Restoran",
+        "Spot foto"
+      ],
+      "deskripsi": "Museum transportasi dengan ratusan koleksi kendaraan dari berbagai era. Setiap zona didesain menyerupai suasana kota di negara tertentu, seperti London, Hollywood, dan Batavia."
+    },
+    {
+      "id": 15,
+      "nama": "Alun-Alun Kota Batu",
+      "kategoriId": 5,
+      "lokasi": "Kota Batu",
+      "alamat": "Jl. Sudiro, Sisir, Kec. Batu, Kota Batu",
+      "latitude": -7.8711714,
+      "longitude": 112.5269243,
+      "hargaTiket": 0,
+      "jamBuka": "24 jam",
+      "rating": 4.7,
+      "jumlahUlasan": 34629,
+      "populer": false,
+      "gambar": "assets/images/alun_alun_batu.jpg",
+      "fasilitas": [
+        "Bianglala",
+        "Taman bermain",
+        "Toilet",
+        "Pusat kuliner"
+      ],
+      "deskripsi": "Ruang publik di pusat Kota Batu yang ramai pada sore dan malam hari. Ikon utamanya adalah bianglala yang memperlihatkan pemandangan kota dari ketinggian. Di sekitarnya banyak pedagang makanan khas Batu."
+    }
+  ]
+}
